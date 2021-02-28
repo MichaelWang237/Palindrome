@@ -11,8 +11,8 @@ int main()
   //Initialize variables
   char input [80];
   int count = 0;
+  int count1 = 0;
   bool isPalindrome = true;
-  int counter = 0;
   char input2 [80];
   char input3 [80];
   //Clears cstrings
@@ -30,8 +30,8 @@ int main()
   //Removes spaces and punctuation by transferring letters and numbers to another array
   for (int i = 0; i < 80; i++) {
     if ((input[i] >= 97 && input[i] <= 122) || (input[i] >= 65 && input[i] <= 90) || (input[i] >= 48 && input[i] <= 57)) {
-      input2[counter] = input[i];
-      counter++;
+      input2[count1] = input[i];
+      count1++;
     }
   }
   //Remove capitalization
