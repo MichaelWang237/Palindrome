@@ -56,15 +56,11 @@ int main()
         }
       
   }
-
     if (isPalindrome == false) {
       cout << "This is not a palindrome";
-      
     }
     else {
       cout << "This is a palindrome";
     }
-
-  
   return 0;
 }
